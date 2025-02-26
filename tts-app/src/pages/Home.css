@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home-container{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 300ms;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.box-container{
+    display: flex;
+    gap:20px;
+}
+.text-input {
+    width: 80%;
+    height: 80vh;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    resize: vertical; /* Allows user to resize */
+  }
+  
